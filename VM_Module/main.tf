@@ -1,6 +1,6 @@
 module "azure_vm_module" {
   source                     = "./azure_vm_module"
-  subscription_id            = "1a4b59c8-0e6d-4b60-8183-c9fe18aa876c"
+  subscription_id            = "Subscription_ID"
   prefix                     = "test"
   location                   = "Central India"
   vnet_address_space         = ["10.0.0.0/16"]
